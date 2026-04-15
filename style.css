@@ -405,14 +405,14 @@ footer {
    .text-overlay {
     
     position: absolute;
-    top: 58%;
+    top: 54%;
     left: 70%;
     transform: translate(-50%, -50%) scale(1);
     width: 40%;
   }
 
   .text-overlay h3 {
-    font-size: 14px;
+    font-size: 13.5px;
   }
 
   .text-overlay p {
