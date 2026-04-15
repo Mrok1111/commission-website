@@ -45,17 +45,22 @@ body {
     background-color: var(--base-color) ;
 }
 
+p {
+  font-family: 'Bai Jamjuree', Regular;
+  line-height: 30px;
+
+}
 
 h3 {
     font-family: 'Baloo Bhaina 2';
-    font-size: 1.25em;
+    font-size: 1.2em;
     margin-left: -20px;
     margin-bottom: 10px;
 }
 
 .price {
     font-family: 'Bai Jamjuree', Regular;
-    font-size: 1.1em;
+    font-size: 1em;
     margin-bottom: 20px;
 }
 
@@ -67,12 +72,13 @@ h3 {
 }
 .bustup {
     font-family: 'Baloo Bhaina 2';
-    font-size: 1.2em;
+    font-size: 1em;
     margin-left: 20px;
     margin-bottom: 10px;
 }
 
 
+/* PROFILE */
 
 .profile-section {
 
@@ -85,6 +91,7 @@ h3 {
   margin-bottom: 20px;
 }
 
+/* INDEX LINK */
 
 nav ul {
 font-family: 'Baloo Bhaina 2';
@@ -153,7 +160,7 @@ nav a:hover {
 
 
 
-
+/* DESCRIPTION */
 
 .sidebar {
   
@@ -168,7 +175,6 @@ nav a:hover {
  
 
 }
-
 
 
 .sidebar .text-main {
@@ -208,6 +214,7 @@ nav a:hover {
   
 }
 
+/* MAIN CONTENT */
 
 .content{
     padding-left: 7vh;
@@ -223,7 +230,7 @@ nav a:hover {
 .content-img {
   display: block;
   border-radius: 40px;
-  width: 100%;
+  width: 97.5%;
   max-width: 931.32px;
   min-width: 600px;
   height: auto;
@@ -250,4 +257,32 @@ nav a:hover {
     font-size: clamp(12px, 1.58vw, 20px);
 
     
+}
+
+/* DO-DONT */
+
+.do-dont  {
+  display: flex;
+  justify-content: center;  /* centers horizontally */
+  align-items: flex-start; /* aligns tops */
+  gap: 90px;
+  margin-top: 6em;
+  margin-bottom: 10em;
+  padding-left: em;
+  
+}
+
+.do-dont img {
+  width: 50vh;
+}
+
+
+footer {
+  text-align: center;
+}
+
+.bottom-bar {
+  height: 30px;          /* thickness of the bar */
+  background-color: rgb(68, 68, 68); 
+  width: 100%;
 }
